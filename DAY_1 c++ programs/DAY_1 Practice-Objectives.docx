@@ -1,0 +1,299 @@
+(1)
+What is the output
+Send Feedback
+What will be the output of the following code ?
+#include <iostream>
+using namespace std;
+int main(){
+    cout << code ;
+}
+info
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+code
+Error 
+Correct Answer
+Solution Description
+If we want to print something on screen exactly, we need to put that text in double quotes, 
+otherwise error will come. For eg. cout << "code";
+
+
+(2)
+What is the output
+Send Feedback
+What will be the output of the following code ?
+#include <iostream>
+using namespace std;
+int main(){
+    cout << "career" << "labs";
+}
+info
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+careerlabs 
+career labs
+Correct Answer
+Solution Description
+The text will be printed exactly like we placed inside double quotes. So first we are printing "career".
+ After printing, our cursor will be right next to the 'r' of "carrer". So "labs" will be printed right 
+ next to the "career" without any spaces between them.
+
+
+
+ (3)
+ Datatype
+Send Feedback
+Which of the following data type stores longest decimal number ?
+info
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+long
+float
+double 
+short
+Correct Answer
+Solution Description
+Out of all given options, only float and double can hold decimal numbers. Size of the float 
+is 4 bytes and double is 8 bytes (in most of the compilers, as the size of data types is compiler
+specific). So double can store bigger decimal numbers.
+
+
+
+(4)
+Garbage value
+Send Feedback
+Compiler assigns a garbage value to an uninitialised local variable in C++ Programming ?
+info
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+true 
+false
+Correct Answer
+Solution Description
+In C++, all variables contain garbage values before their initialisation.
+
+
+
+(5)
+What is the output
+Send Feedback
+What will be the output of following statements -
+bool a = true;
+cout << a;
+Answer
+1
+Type here
+Correct Answer
+Solution Description
+In c++, when we print the value of a bool variable, it prints either 0 (for false) or 1 
+(for true). It doesn't print "true" or "false".
+
+
+
+(6)
+What is the output
+Send Feedback
+What is the output of the following code if the input is : 5 15?
+  #include <iostream>
+  using namespace std;
+  int main() {
+        int a, b; 
+    cin >> a;
+    cin >> b;
+    cout << (a+b);
+            return 0;
+  }
+info
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+5
+15
+20 
+Error
+Correct Answer
+Solution Description
+We are asking two integer values from user and input is "5 15" (without quotes). So 5 
+will be assigned to a and 15 will be assigned to b. We can enter multiple input values 
+either separated by space or in new lines. Hence, the result will be 20.
+
+
+
+(7)
+What is the output
+Send Feedback
+What will be the output of following statement ?
+ cout << (‘a’ + 1);
+Answer
+98
+Type here
+Correct Answer
+Solution Description
+When you add a character and an integer, answer is also an integer. It will add the ASCII value of  
+char ‘a’ i.e 97  and int 1. So answer will be 98.
+
+
+
+(8)
+What is the output
+Send Feedback
+What will be the output of following statement ?
+int i = 'c';
+cout << i;
+Answer
+99
+Type here
+Correct Answer
+Solution Description
+When we put char 'c' into an integer, its ASCII value will be put in the integer i.e. 99.
+
+
+
+(9)
+What is the output
+Send Feedback
+What is the output ?
+#include <iostream>
+using namespace std;
+int main()
+{
+       char c = 74;
+       cout << c;
+       return 0;
+}
+Answer
+J
+Type here
+Correct Answer
+Solution Description
+When we assign an integer to a character variable, that integer will be treated as ASCII value of 
+corresponding character. 74 is ASCII value of letter 'J'. Hence, 'J' will be printed.
+
+
+
+(10)
+What is the output
+Send Feedback
+What is the output ?
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a = 10;
+    char ch = 'a';
+    ch = ch + a;
+    cout << ch << endl;
+}
+Answer
+k
+Type here
+Correct Answer
+Solution Description
+We know that the addition of a character and an integer leads to an integer. So the statement - "ch + a" 
+will give the answer 107 (ASCII value of 'a' is 97). But we are assigning this integer 
+now to the character variable. Hence, 107 will be saved in the variable "ch" and on printing it will 
+print the character which is having ASCII value 107 i.e. 'k'. 
+
+
+
+(11)
+What is the output
+Send Feedback
+What will be the output ?
+#include <iostream>
+using namespace std;   
+int main()
+{
+    double a = 6 / 4;
+    int b  = 6 / 4;
+    double c = a + b;
+    cout << c;
+}
+info
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+3
+1.5
+2 
+2.5
+Correct Answer
+Solution Description
+When 6 / 4 is performed, both the operands of / are int hence answer will be an int i.e. 1. Hence the 
+value of both a and b is 1. Thus a + b will be 2. In C++, if a double value doesn't contain any decimal 
+value, only integer will be printed.
+
+
+
+(12)
+What is the output
+Send Feedback
+#include <iostream>
+using namespace std;  
+int main()
+{
+    double a = 55.5;
+    int b = 55;
+    a = a % 10;
+    b = b % 10;
+    cout << a << " "  << b;
+}
+info
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+5 5
+5.5 5
+6 5
+Syntax error 
+Correct Answer
+Solution Description
+% can’t be used with double or float.
+
+
+
+(13)
+What is the output
+Send Feedback
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int var1 = 5;
+    int var2 = 6;
+    cout << (var1 > var2);
+ }
+info
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+true
+false
+0 
+1
+Correct Answer
+Solution Description
+'>' operator gives a boolean answer. And the condition is false.
+So answer will be false and 0 will be printed (boolean variables print only 0 and 1).
+
+
