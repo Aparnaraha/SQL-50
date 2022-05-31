@@ -1,0 +1,135 @@
+(1)
+Array declaration
+Send Feedback
+Which of the following correctly declares an array of size 10 ?
+info
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+int array[10]; 
+int array;
+array{10};
+array array[10];
+Correct Answer int array[10]; 
+
+
+(2)
+What is the output
+Send Feedback
+What will be the output of the following code ?
+int arr[100];
+cout << arr[0];
+info
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+0
+Garbage value 
+Error
+Correct Answer Garbage value
+
+
+
+(3)
+Fill the output
+Send Feedback
+What is the index number of the last element of an array with 5 elements ?
+Answer
+4
+Type here
+Correct Answer 4
+
+
+(4)
+Access element
+Send Feedback
+Which of the following accesses the third element stored in array?
+info
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+array[3]
+array[2] 
+array(3)
+array
+Correct Answer array[2]
+
+
+(5)
+Function calling
+Send Feedback
+What is the correct syntax for passing array to a function -
+void func(int a[]) {
+}
+
+int main() {
+    int a[10];
+    // Call function "func" and pass array a
+}
+info
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+func(a[]);
+func(a[10]);
+func(int a[10]);
+func(a); 
+Correct Answer func(a); 
+
+
+(6)
+What is the output
+Send Feedback
+#include <iostream>
+using namespace std;
+int main() {
+    int a[10];
+    cout << sizeof(a) << endl;
+}
+info
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+10
+40 
+4
+8
+Correct Answer 40
+
+
+(7)
+What is the output
+Send Feedback
+Assume an integer takes 4 bytes and a pointer takes 8 bytes.
+#include <iostream>
+using namespace std;
+
+void func(int a[]) {
+    cout << sizeof(a) << endl;
+}
+
+int main() {
+    int a[10];
+    func(a);
+}
+info
+You have max 2 attempts to score in this question.
+Attempts left:
+1/2
+Options
+This problem has only one correct answer
+10
+40
+4
+8 
+Correct Answer 8
