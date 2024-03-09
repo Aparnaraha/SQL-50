@@ -1,4 +1,4 @@
-
+# Program to find the factorial of a number
 
 # solution 1 using a loop
 

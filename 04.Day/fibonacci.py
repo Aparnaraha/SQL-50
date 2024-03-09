@@ -1,3 +1,4 @@
+# Program to print the fibonacci sequence
 a = 0
 b = 1
 num = int(input("enter a number to obtain fibonacci sequence: "))

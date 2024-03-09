@@ -1,3 +1,4 @@
+# Program to check if the number is Armstrong or not 
 num = int(input("enter a number here: "))
 
 sum = 0

@@ -1,3 +1,5 @@
+# Program to display the Multiplication table
+
 # solution 1 with for loop
 
 n = iint(input("enter a number here: "))
