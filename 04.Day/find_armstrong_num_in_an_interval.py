@@ -1,7 +1,9 @@
 # Program to find_armstrong_number_in_an_interval
 
+# take input for lower limit
 lower = int(input("enter the lower limit here: "))
 
+# take input for upper limit
 upper = int(input("enter the upper limit here: "))
 
 for num in range(lower, upper+1):
