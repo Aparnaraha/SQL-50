@@ -1,6 +1,8 @@
 # Program to print the fibonacci sequence
 a = 0
 b = 1
+
+# take input for obtaining Fibonacci sequence 
 num = int(input("enter a number to obtain fibonacci sequence: "))
 
 if num == 1:
