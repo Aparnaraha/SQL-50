@@ -2,6 +2,7 @@
 
 # solution 1 with for loop
 
+# take input for table
 n = int(input("enter a number here: "))
 
 for i in range(1,11):
