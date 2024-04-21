@@ -5,6 +5,7 @@ b = 1
 # take input for obtaining Fibonacci sequence 
 num = int(input("enter a number to obtain fibonacci sequence: "))
 
+# check conditions
 if num == 1:
   print(a)
 
